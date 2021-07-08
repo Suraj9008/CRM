@@ -62,6 +62,9 @@ import { BaseRoutingModule } from './base-routing.module';
     ProgressbarModule.forRoot(),
     TooltipModule.forRoot()
   ],
+  exports: [ 
+    NavbarsComponent
+  ],
   declarations: [
     CardsComponent,
     FormsComponent,
